@@ -14,6 +14,7 @@ $(document).ready(function() {
 
 
 ////////Back End////////
+/// pizza object///
 function Pizza(toppings, size) {
   this.toppings = toppings
   this.size = size
