@@ -1,6 +1,9 @@
 //////// UI ////////
-$(document).ready(function()
+$(document).ready(function() {
+  $('#form-group').submit(function(event) {
+    event.preventDefault();
 
+  });
 });
 
 
@@ -9,7 +12,7 @@ $(document).ready(function()
 
 
 ////////Back End////////
-function Pizza(toppings,size){
-  this.toppings=toppings
-  this.size=size
+function Pizza(toppings, size) {
+  this.toppings = toppings
+  this.size = size
 }
